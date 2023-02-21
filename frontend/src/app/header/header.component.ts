@@ -7,10 +7,15 @@ import { Component, OnInit, NgModule } from '@angular/core';
 
 export class HeaderComponent implements OnInit {
 
-  constructor() {
-    
+  constructor(
+
+  ) {
+
    }
 
   ngOnInit(): void {
+  }
+  onLogin(){
+
   }
 }

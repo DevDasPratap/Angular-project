@@ -7,13 +7,15 @@ import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { SearchComponent } from './search/search.component';
+import { UserLoginComponent } from './Components/user-login/user-login.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SearchComponent
+    SearchComponent,
+    UserLoginComponent
   ],
   imports: [
     BrowserModule,
