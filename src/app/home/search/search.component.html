@@ -1,0 +1,21 @@
+<div class="flex flex-row shadow-md h-16 justify-center items-center pr-4 ">
+    
+    <div class="start flex-1 flex gap-4 flex-row items-center" >
+        <div class="logo w-16 ml-5">
+            <img src="https://cdn-icons-png.flaticon.com/512/2991/2991416.png" alt="">
+          </div>
+  <div class="catagory m-12 gap-4 flex" *ngIf="width>640">
+    <span class="hover:border-b-4 h-max border-cyan-900 text-xl">Men</span>
+    <span class="text-xl hover:border-b-4 h-max border-pink-600">Women</span>
+    <span class="text-xl hover:border-b-4 h-max border-green-300">Kids</span>
+  </div></div>
+  <div class="search flex-2 flex justify-center shadow-sm items-center flex items-center gap-2">
+    <input class=" input bg-gray-100 w-full h-10 focus:ring-0 focus:border-transparent focus:bg-transparent placeholder:text-xs rounded-md placeholder-gray-400" matInput placeholder="Search For Products">
+    <mat-icon class="cursor-pointer">search</mat-icon>
+  </div>
+  <div class="profile flex items-center justify-end gap-4 flex-1">
+    <mat-icon>account_circle</mat-icon>
+    <mat-icon>favorite</mat-icon>
+    <mat-icon>shopping_cart</mat-icon>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+.input:focus {
+  outline: 2px solid rgba(128, 128, 128, 0.205);
+}
+.input{
+    padding-left: 1rem;
+}
+.search{
+    min-width: 40%;
+}
